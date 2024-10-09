@@ -18,9 +18,9 @@
   import { ref } from 'vue'
   
   const carouselItems = ref([
-    { id: 1, title: 'HELLO.WORLD', description: '边伯贤 BAEKHYUN', imageUrl: '/src/assets/img/banner1.jpg' },
-    { id: 2, title: '街上的明星', description: '新裤子', imageUrl: '/src/assets/img/banner2.jpg' },
-    { id: 3, title: '世帝尊', description: '肉身成圣弹指遮天', imageUrl: '/src/assets/img/banner3.jpg' },
+    { id: 1, title: 'HELLO.WORLD', description: '边伯贤 BAEKHYUN', imageUrl: './src/assets/img/banner1.jpg' },
+    { id: 2, title: '街上的明星', description: '新裤子', imageUrl: './src/assets/img/banner2.jpg' },
+    { id: 3, title: '世帝尊', description: '肉身成圣弹指遮天', imageUrl: './src/assets/img/banner3.jpg' },
   ])
   const openItem = (item) => {
   // 这里实现跳转到MV播放页面的逻辑

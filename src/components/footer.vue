@@ -284,7 +284,7 @@ defineExpose({ loadSong, addToPlaylist, insertToNextInPlaylist });
 <template>
   <div class="app-footer">
     <div class="song-info">
-      <img :src="currentSong?.coverUrl || '/src/assets/default.jpg'" alt="Album Cover" class="album-cover">
+      <img :src="currentSong?.coverUrl || './src/assets/default.jpg'" alt="Album Cover" class="album-cover">
       <div class="song-details">
         <span class="song-name">{{ currentSong?.name || '未选择歌曲' }}</span>
         <span class="artist-name">{{ currentSong?.artist || '未知艺术家' }}</span>

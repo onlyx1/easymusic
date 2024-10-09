@@ -15,16 +15,16 @@
   
   // 这里我们模拟一些歌单数据，实际应用中这可能来自API
   const playlists = ref([
-    { id: 1, name: '轻音乐', coverUrl: '/src/assets/img/1.jpg' },
-    { id: 2, name: '流行热歌', coverUrl: '/src/assets/img/2.jpg' },
-    { id: 3, name: '经典老歌', coverUrl: '/src/assets/img/3.jpg' },
-    { id: 4, name: '摇滚精选', coverUrl: '/src/assets/img/4.jpg' },
-    { id: 5, name: '爵士音乐', coverUrl: '/src/assets/img/1.jpg' },
-    { id: 6, name: '电子音乐', coverUrl: '/src/assets/img/2.jpg' },
-    { id: 7, name: '古典音乐', coverUrl: '/src/assets/img/3.jpg' },
-    { id: 8, name: 'R&B/Soul', coverUrl: '/src/assets/img/4.jpg' },
-    { id: 9, name: '民谣歌曲', coverUrl: '/src/assets/img/1.jpg' },
-    { id: 10, name: '嘻哈说唱', coverUrl: '/src/assets/img/2.jpg' },
+    { id: 1, name: '轻音乐', coverUrl: './src/assets/img/1.jpg' },
+    { id: 2, name: '流行热歌', coverUrl: './src/assets/img/2.jpg' },
+    { id: 3, name: '经典老歌', coverUrl: './src/assets/img/3.jpg' },
+    { id: 4, name: '摇滚精选', coverUrl: './src/assets/img/4.jpg' },
+    { id: 5, name: '爵士音乐', coverUrl: './src/assets/img/1.jpg' },
+    { id: 6, name: '电子音乐', coverUrl: './src/assets/img/2.jpg' },
+    { id: 7, name: '古典音乐', coverUrl: './src/assets/img/3.jpg' },
+    { id: 8, name: 'R&B/Soul', coverUrl: './src/assets/img/4.jpg' },
+    { id: 9, name: '民谣歌曲', coverUrl: './src/assets/img/1.jpg' },
+    { id: 10, name: '嘻哈说唱', coverUrl: './src/assets/img/2.jpg' },
   ]);
   const openPlaylist = (playlist) => {
   // 这里实现跳转到MV播放页面的逻辑
