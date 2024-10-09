@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="content-wrapper">
+    <div class="content-wrappestaticr">
       <!-- 歌曲分类 -->
       <div class="playlist-categories">
         <span v-for="category in categories" :key="category" 
@@ -83,10 +83,10 @@ const selectedCategory = ref('全部');
 // 生成模拟歌单数据
 const generatePlaylists = (count) => {
   const coverImages = [
-    new URL('../assets/img/1.jpg', import.meta.url).href,
-    new URL('../assets/img/2.jpg', import.meta.url).href,
-    new URL('../assets/img/3.jpg', import.meta.url).href,
-    new URL('../assets/img/4.jpg', import.meta.url).href
+    new URL('../static/img/1.jpg', import.meta.url).href,
+    new URL('../static/img/2.jpg', import.meta.url).href,
+    new URL('../static/img/3.jpg', import.meta.url).href,
+    new URL('../static/img/4.jpg', import.meta.url).href
   ];
   const tags = ['华语', '流行', '摇滚', '民谣', '电子'];
   return Array.from({ length: count }, (_, i) => ({

@@ -21,14 +21,14 @@ import { ref } from 'vue';
 
 // 模拟MV数据，实际应用中这可能来自API
 const mvs = ref([
-  { id: 1, name: 'MV1', artist: '歌手1', coverUrl: './src/assets/img/mv1.jpg' },
-  { id: 2, name: 'MV2', artist: '歌手2', coverUrl: './src/assets/img/mv2.jpg' },
-  { id: 3, name: 'MV3', artist: '歌手3', coverUrl: './src/assets/img/mv1.jpg' },
-  { id: 4, name: 'MV4', artist: '歌手4', coverUrl: './src/assets/img/mv2.jpg' },
-  { id: 5, name: 'MV5', artist: '歌手5', coverUrl: './src/assets/img/mv2.jpg' },
-  { id: 6, name: 'MV6', artist: '歌手6', coverUrl: './src/assets/img/mv1.jpg' },
-  { id: 7, name: 'MV7', artist: '歌手7', coverUrl: './src/assets/img/mv2.jpg' },
-  { id: 8, name: 'MV8', artist: '歌手8', coverUrl: './src/assets/img/mv1.jpg' },
+  { id: 1, name: 'MV1', artist: '歌手1', coverUrl: './src/static/img/mv1.jpg' },
+  { id: 2, name: 'MV2', artist: '歌手2', coverUrl: './src/static/img/mv2.jpg' },
+  { id: 3, name: 'MV3', artist: '歌手3', coverUrl: './src/static/img/mv1.jpg' },
+  { id: 4, name: 'MV4', artist: '歌手4', coverUrl: './src/static/img/mv2.jpg' },
+  { id: 5, name: 'MV5', artist: '歌手5', coverUrl: './src/static/img/mv2.jpg' },
+  { id: 6, name: 'MV6', artist: '歌手6', coverUrl: './src/static/img/mv1.jpg' },
+  { id: 7, name: 'MV7', artist: '歌手7', coverUrl: './src/static/img/mv2.jpg' },
+  { id: 8, name: 'MV8', artist: '歌手8', coverUrl: './src/static/img/mv1.jpg' },
 ]);
 const playMV = (mv) => {
   // 这里实现跳转到MV播放页面的逻辑
