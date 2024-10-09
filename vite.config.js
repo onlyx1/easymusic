@@ -13,5 +13,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base:'/easymusic/'
+  base:'/easymusic/',
+  build: {
+    assetsInlineLimit: 0
+  }
 })

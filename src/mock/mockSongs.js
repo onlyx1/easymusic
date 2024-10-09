@@ -7,12 +7,12 @@ function padNumber(number) {
 }
 
 const audioFiles = [
-    { file: './src/static/music/1.mp3', duration: 235 }, // 3:55
-    { file: './src/static/music/2.mp3', duration: 248 }, // 4:08
-    { file: './src/static/music/3.mp3', duration: 221 }, // 3:41
-    { file: './src/static/music/4.mp3', duration: 256 }  // 4:16
+    { file: new URL('../assets/music/1.mp3', import.meta.url).href, duration: 235 }, // 3:55
+    { file: new URL('../assets/music/2.mp3', import.meta.url).href, duration: 248 }, // 4:08
+    { file: new URL('../assets/music/3.mp3', import.meta.url).href, duration: 221 }, // 3:41
+    { file: new URL('../assets/music/4.mp3', import.meta.url).href, duration: 256 }  // 4:16
 ];
-const imageFiles = Array.from({ length: 4 }, (_, i) => `./src/static/img/${i + 1}.jpg`);
+const imageFiles = Array.from({ length: 4 }, (_, i) => new URL(`../assets/img/${i + 1}.jpg`, import.meta.url).href);
 
 const artists = ["周杰伦", "林俊杰", "陈奕迅", "Taylor Swift", "Ed Sheeran", "Adele", "邓紫棋", "五月天", "张学友", "李荣浩"];
 const albums = ["Jay", "JJ陆", "U87", "1989", "÷", "25", "新的心跳", "自传", "学友光年", "有理想"];
